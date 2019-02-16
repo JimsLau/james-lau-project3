@@ -332,20 +332,24 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 
 body {
   background-color: #8d1313;
+  line-height: 30px;
 }
 
 h1 {
   margin: 70px;
   font-family: "Finger Paint", cursive;
   font-size: 50px;
-  color: #FADBD8;
+  line-height: 70px;
+  color: #e8eb32;
   text-align: center;
+  text-transform: uppercase;
 }
 
 form {
   margin: 0 auto;
   width: 250px;
   font-size: 20px;
+  text-align: center;
 }
 
 form div {
@@ -364,7 +368,7 @@ input[submit] {
 
 .information h2 {
   font-size: 30px;
-  color: black;
+  color: #f4f4ed;
   text-align: center;
 }
 
@@ -376,8 +380,8 @@ input[submit] {
 
 .information p {
   font-size: 18px;
-  color: lightBrown;
-  text-align: center;
+  color: #f4f4ed;
+  text-align: left;
 }
 
 .information {

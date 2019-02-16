@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="styles/styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Finger+Paint|Open+Sans" rel="stylesheet">  
+	<link href="https://fonts.googleapis.com/css?family=Finger+Paint|Open+Sans" rel="stylesheet">
 	<title>Chinese Zodiac Calculator</title>
 </head>
+
 <body>
 	<h1>What is your Chinese Zodiac Animal?</h1>
-	<form class = 'yearOfBirth'>
-		<div>Birth Year (eg:1990)</div>
-		<input class = 'yearValue' type="number">
+	<form class='year-of-birth'>
+		<label for="year">Enter Your Birth Year! (eg:1990)</label>
+		<input id="year" class='year-value' type="number">
 		<input type="submit" value="Submit">
 	</form>
 	<div class='information'>
-		<h2></h2>
+		<h2 class="zodiac-animal"></h2>
 		<img/>
-		<p></p>
+		<p class="personality"></p>
+		<h2 class="Lucky-things"></h2>
+
 	</div>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 	<script src='script.js'></script>
 </body>
-</html>
 
+</html>
