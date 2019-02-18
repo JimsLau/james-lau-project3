@@ -330,17 +330,30 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   overflow: hidden;
 }
 
-body {
+body,
+input[type="submit"]:hover {
   background-color: #8d1313;
+}
+
+.info h2,
+.info p {
+  color: #f4f4ed;
+}
+
+.info {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
   line-height: 30px;
 }
 
 h1 {
-  margin: 70px;
+  margin: 10px;
   font-family: "Finger Paint", cursive;
   font-size: 50px;
   line-height: 70px;
-  color: #e8eb32;
+  color: #f4da47;
   text-align: center;
   text-transform: uppercase;
 }
@@ -348,43 +361,46 @@ h1 {
 form {
   margin: 0 auto;
   width: 250px;
+  padding: 10px;
   font-size: 20px;
   text-align: center;
 }
 
-form div {
-  padding: 20px 0;
+input[type="number"],
+input[type="submit"] {
+  padding: 5px;
+  border: 2px solid #f4da47;
+  margin: 5px;
 }
 
-input[number] {
-  width: 200px;
-  padding: 20px 20px;
-  border: 20px;
+input[type="submit"] {
+  border-radius: 10%;
+  background: #f9fc59;
+  -webkit-transition: ease-in-out 0.4s;
+  transition: ease-in-out 0.4s;
 }
 
-input[submit] {
-  width: 100px;
+input[type="submit"]:hover {
+  color: #f9fc59;
 }
 
-.information h2 {
+.info h2 {
   font-size: 30px;
-  color: #f4f4ed;
   text-align: center;
 }
 
-.information img {
+.info img {
   width: 200px;
   margin: 0 auto;
   display: block;
 }
 
-.information p {
+.info p {
   font-size: 18px;
-  color: #f4f4ed;
   text-align: left;
 }
 
-.information {
-  margin: 0 auto;
+.info {
+  margin: 20px 10%;
 }
 /*# sourceMappingURL=styles.css.map */
